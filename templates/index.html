@@ -1,0 +1,76 @@
+<html>
+<body>
+    
+    <div style=" text-align: center">
+        <form action="{{ url_for('predict')}}" method="post">
+            <h2 style=" text-align: center">ZOMATO DELIVERY:TRIVANDRUM:RESTAURANT NAME WITH DISHES AND PRICE</h2>
+            <h3 style=" text-align: center">DISH_NAME</h3><input name="dish_name" style="height: 30px;width:200px;font-size: medium;padding-left: 7px;">
+            <br><br><button id="sub" style=" text-align: center" type="submit ">Predict</button>
+            <br>
+            
+        </form>    
+    </div>
+
+      <table>
+        <tr>
+          <th>Restaurant Name</th>
+          <th>Dish Name</th>
+          <th>Price</th>
+        </tr>
+        
+        {%for i in result_list%}
+        
+        <tr>
+          <td>{{i[0]}}</td>
+          <td>{{i[1]}}</td>
+          <td>{{i[2]}}</td>
+        </tr>
+    
+        {%endfor%} 
+        
+      </table>
+  </body>
+
+  <style type="text/css">
+
+    *{
+      box-sizing: content-box;
+    }
+
+    #container{
+      max-width: 5000px;
+      margin: auto;
+    }
+    table{
+      width: 1500;
+      border-collapse: collapse;
+      font-family: 'Verdana';
+    }
+    table,th,td,tr{
+      border: 2px #aaa solid;
+    }
+    th{
+      background-color: #00a65a;
+      color: white;
+      height: 50px;
+    font-size: 20px;
+      }
+     tr{
+      height: 40px;
+     } 
+     td{
+      padding: 10px;
+     }
+     tr:hover{
+      background-color: #eee;
+     }
+     tr:nth-child(even){
+      background-color: #55efc4;
+     }
+
+  </style>
+  </html>
+    
+    
+     
+
