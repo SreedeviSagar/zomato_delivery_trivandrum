@@ -1,6 +1,6 @@
 ### ZOMATO DELIVERY IN TRIVANDRUM WITH RESTAURANT NAMES/DISHES/PRICE
 #### Problem Statement:
-    To make a price list of the given input dish in different restaurants. The zomato website ( https://www.zomato.com/trivandrum/restaurants?category=1 ) is web scraped using selenium and python.
+    To make a price list of the given input dish name in different restaurants. The zomato website ( https://www.zomato.com/trivandrum/restaurants?category=1 ) is web scraped using selenium and python.
 
 The scraped elements include:
 
