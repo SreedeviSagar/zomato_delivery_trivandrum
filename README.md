@@ -20,7 +20,8 @@ dish_price_INR : price of the selected dish
 * Numpy 
 * Flask
 
- ![demo30](https://github.com/SreedeviSagar/zomato_delivery_trivandrum/assets/115715763/1c0ed189-91fd-4f08-b560-3da715f0d97a)
+![demo31](https://github.com/SreedeviSagar/zomato_delivery_trivandrum/assets/115715763/a5b49928-f495-4bfb-a9dc-4707d8641174)
+
 
 
 
